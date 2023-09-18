@@ -69,6 +69,18 @@ header nav ul{
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: bold;
+    position: relative;
+}
+.slider .content div:nth-child(2)::before{
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+    width: 80px;
+    height: 80px;
+    content: '';
+    background-image: url(img/leaves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .slider .content div:nth-child(1){
     text-align: left;
